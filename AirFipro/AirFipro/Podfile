@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AirFipro' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AirFipro
+  pod 'CocoaMQTT'
+  pod 'Alamofire', '~> 4.0.1’
+  pod 'ProtocolBuffers-Swift'
+  pod 'KDCircularProgress'
+
+  target 'AirFiproTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AirFiproUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

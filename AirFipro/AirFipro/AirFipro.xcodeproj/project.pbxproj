@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3625634762C92CEB409DE44D /* Pods_AirFipro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337DB82EA07379F4EB97E208 /* Pods_AirFipro.framework */; };
+		4522BE391FC7E773002E4840 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522BE381FC7E772002E4840 /* SettingsViewController.swift */; };
+		4531ECA51FC6CEB100F86FE0 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531ECA41FC6CEB100F86FE0 /* FeedbackViewController.swift */; };
+		4531ECA71FC6D70700F86FE0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4531ECA61FC6D70700F86FE0 /* SystemConfiguration.framework */; };
+		45442FC01FCD9E56008E8105 /* PeriodicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45442FBF1FCD9E56008E8105 /* PeriodicalViewController.swift */; };
+		457421221FF246DC009BC5BA /* NotiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457421211FF246DC009BC5BA /* NotiListViewController.swift */; };
+		45A538D61FF5FE0E00BD008F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A538D51FF5FE0E00BD008F /* AVFoundation.framework */; };
+		45A538D81FF6165D00BD008F /* apple_sms.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45A538D71FF6165C00BD008F /* apple_sms.mp3 */; };
+		45B6BA8C1FCC3014000A88F2 /* ReportTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6BA8B1FCC3014000A88F2 /* ReportTypeViewController.swift */; };
+		45B6BA8E1FCC3D47000A88F2 /* ForgotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6BA8D1FCC3D47000A88F2 /* ForgotPwdViewController.swift */; };
+		45BCFD191FFF4D44001E9403 /* AirfiprosplashplusNew.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45BCFD181FFF4D44001E9403 /* AirfiprosplashplusNew.gif */; };
+		45CF91D11FE2525B003FFC10 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CF91D01FE2525B003FFC10 /* MarqueeLabel.swift */; };
+		45D0974D1FC074C60002B885 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0974C1FC074C60002B885 /* ReportsViewController.swift */; };
+		45F9EFDB1FCBE76D00BBE1FB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F9EFDA1FCBE76D00BBE1FB /* UserNotifications.framework */; };
+		45F9EFDF1FCC07B800BBE1FB /* Controller.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9EFDE1FCC07B800BBE1FB /* Controller.proto.swift */; };
+		571CFCEA1FBC519A008AA808 /* ControllerConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571CFCE91FBC5199008AA808 /* ControllerConfigurationViewController.swift */; };
+		57306F631FDE486900B059F9 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57306F611FDE486800B059F9 /* SCLExtensions.swift */; };
+		57306F641FDE486900B059F9 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57306F621FDE486900B059F9 /* SCLAlertView.swift */; };
+		5753EEA11FC428730066073F /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753EE9D1FC428730066073F /* TCPClient.swift */; };
+		5753EEA21FC428730066073F /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753EE9E1FC428730066073F /* Socket.swift */; };
+		5753EEA31FC428730066073F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753EE9F1FC428730066073F /* Result.swift */; };
+		5753EEA41FC428730066073F /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5753EEA01FC428730066073F /* ytcpsocket.c */; };
+		5754465E1FB1C81100C2BA12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5754465D1FB1C81100C2BA12 /* AppDelegate.swift */; };
+		575446601FB1C81100C2BA12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5754465F1FB1C81100C2BA12 /* ViewController.swift */; };
+		575446631FB1C81100C2BA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575446611FB1C81100C2BA12 /* Main.storyboard */; };
+		575446651FB1C81100C2BA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575446641FB1C81100C2BA12 /* Assets.xcassets */; };
+		575446681FB1C81100C2BA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575446661FB1C81100C2BA12 /* LaunchScreen.storyboard */; };
+		575446731FB1C81100C2BA12 /* AirFiproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575446721FB1C81100C2BA12 /* AirFiproTests.swift */; };
+		5754467E1FB1C81100C2BA12 /* AirFiproUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5754467D1FB1C81100C2BA12 /* AirFiproUITests.swift */; };
+		577866381FBF1B460087C630 /* cert-key-vm.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 577866371FBF1B450087C630 /* cert-key-vm.p12 */; };
+		5778663A1FBF493E0087C630 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577866391FBF493E0087C630 /* NotificationViewController.swift */; };
+		577E44C61FB6E39800D6E1CE /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E44C51FB6E39800D6E1CE /* DepartmentViewController.swift */; };
+		57804E8E1FB2FC2F0024C6D5 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804E871FB2FC2E0024C6D5 /* BluetoothSerial.swift */; };
+		57804E8F1FB2FC2F0024C6D5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 57804E881FB2FC2E0024C6D5 /* MBProgressHUD.m */; };
+		57804E901FB2FC2F0024C6D5 /* SwiftEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804E891FB2FC2F0024C6D5 /* SwiftEventBus.swift */; };
+		57804E911FB2FC2F0024C6D5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 57804E8C1FB2FC2F0024C6D5 /* Reachability.m */; };
+		57804E921FB2FC2F0024C6D5 /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 57804E8D1FB2FC2F0024C6D5 /* BSKeyboardControls.m */; };
+		57804E941FB300530024C6D5 /* ServiceConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804E931FB300530024C6D5 /* ServiceConnector.swift */; };
+		57804E961FB300770024C6D5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804E951FB300770024C6D5 /* Common.swift */; };
+		57804E981FB3008A0024C6D5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804E971FB3008A0024C6D5 /* Utils.swift */; };
+		57804E9A1FB309150024C6D5 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804E991FB309150024C6D5 /* UIImage+Gif.swift */; };
+		57804EAD1FB321830024C6D5 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804E9D1FB321810024C6D5 /* ProximaNova-Light.otf */; };
+		57804EAE1FB321830024C6D5 /* ProximaNova-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804E9E1FB321810024C6D5 /* ProximaNova-RegularIt.otf */; };
+		57804EAF1FB321830024C6D5 /* ProximaNovaCond-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804E9F1FB321820024C6D5 /* ProximaNovaCond-SemiboldIt.otf */; };
+		57804EB01FB321830024C6D5 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA01FB321820024C6D5 /* ProximaNova-Bold.otf */; };
+		57804EB11FB321830024C6D5 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA11FB321820024C6D5 /* ProximaNova-Regular.otf */; };
+		57804EB21FB321830024C6D5 /* ProximaNova-Extrabld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA21FB321820024C6D5 /* ProximaNova-Extrabld.otf */; };
+		57804EB31FB321830024C6D5 /* ProximaNovaCond-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA31FB321820024C6D5 /* ProximaNovaCond-Regular.otf */; };
+		57804EB41FB321830024C6D5 /* ProximaNovaCond-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA41FB321820024C6D5 /* ProximaNovaCond-RegularIt.otf */; };
+		57804EB51FB321830024C6D5 /* ProximaNovaCond-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA51FB321820024C6D5 /* ProximaNovaCond-Semibold.otf */; };
+		57804EB61FB321830024C6D5 /* ProximaNova-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA61FB321820024C6D5 /* ProximaNova-LightIt.otf */; };
+		57804EB71FB321830024C6D5 /* ProximaNova-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA71FB321820024C6D5 /* ProximaNova-SemiboldIt.otf */; };
+		57804EB81FB321830024C6D5 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA81FB321820024C6D5 /* ProximaNova-Black.otf */; };
+		57804EB91FB321830024C6D5 /* ProximaNovaCond-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EA91FB321830024C6D5 /* ProximaNovaCond-Light.otf */; };
+		57804EBA1FB321830024C6D5 /* ProximaNovaCond-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EAA1FB321830024C6D5 /* ProximaNovaCond-LightIt.otf */; };
+		57804EBB1FB321830024C6D5 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EAB1FB321830024C6D5 /* ProximaNova-BoldIt.otf */; };
+		57804EBC1FB321830024C6D5 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57804EAC1FB321830024C6D5 /* ProximaNova-Semibold.otf */; };
+		578497411FBADB39003CCE15 /* SystemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578497401FBADB39003CCE15 /* SystemListViewController.swift */; };
+		5784974A1FBBFB2C003CCE15 /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578497481FBBFB2B003CCE15 /* ActionButtonItem.swift */; };
+		5784974B1FBBFB2C003CCE15 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578497491FBBFB2B003CCE15 /* ActionButton.swift */; };
+		5784974D1FBC10DB003CCE15 /* AddMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5784974C1FBC10DB003CCE15 /* AddMachineViewController.swift */; };
+		5789A5B31FBD7784000F73DC /* ControllerDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5789A5B21FBD7783000F73DC /* ControllerDataViewController.swift */; };
+		578B5DB11FB41D480069FD29 /* Airfiprosplashplus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 578B5DAF1FB41D480069FD29 /* Airfiprosplashplus.gif */; };
+		578B5DB41FB44DD20069FD29 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578B5DB31FB44DD20069FD29 /* Extension.swift */; };
+		57934ACF1FBEAEE50066785F /* ConstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57934ACE1FBEAEE50066785F /* ConstructionViewController.swift */; };
+		57C739C71FBC672F00C1788A /* RetryWifiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C739C61FBC672F00C1788A /* RetryWifiViewController.swift */; };
+		57D5EE0A1FB96AA0004ABD09 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5EE091FB96AA0004ABD09 /* DashboardViewController.swift */; };
+		57D5EE0C1FB96AB9004ABD09 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5EE0B1FB96AB9004ABD09 /* DrawerViewController.swift */; };
+		57D5EE0E1FB96ACE004ABD09 /* SliderLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5EE0D1FB96ACE004ABD09 /* SliderLibViewController.swift */; };
+		A82B106663001DFD62842A32 /* Pods_AirFiproUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A81C1E76FBDAA2120F3CBB4 /* Pods_AirFiproUITests.framework */; };
+		B901EB8617E5DFCD36CF025C /* Pods_AirFiproTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A77E54D5D669E75EDC3BF /* Pods_AirFiproTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5754466F1FB1C81100C2BA12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 575446521FB1C81100C2BA12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575446591FB1C81100C2BA12;
+			remoteInfo = AirFipro;
+		};
+		5754467A1FB1C81100C2BA12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 575446521FB1C81100C2BA12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575446591FB1C81100C2BA12;
+			remoteInfo = AirFipro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		337DB82EA07379F4EB97E208 /* Pods_AirFipro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirFipro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4522BE381FC7E772002E4840 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4531ECA41FC6CEB100F86FE0 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4531ECA61FC6D70700F86FE0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45442FBF1FCD9E56008E8105 /* PeriodicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicalViewController.swift; sourceTree = "<group>"; };
+		457421211FF246DC009BC5BA /* NotiListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiListViewController.swift; sourceTree = "<group>"; };
+		45A538D51FF5FE0E00BD008F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		45A538D71FF6165C00BD008F /* apple_sms.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple_sms.mp3; sourceTree = "<group>"; };
+		45B6BA8B1FCC3014000A88F2 /* ReportTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTypeViewController.swift; sourceTree = "<group>"; };
+		45B6BA8D1FCC3D47000A88F2 /* ForgotPwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPwdViewController.swift; sourceTree = "<group>"; };
+		45BCFD181FFF4D44001E9403 /* AirfiprosplashplusNew.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AirfiprosplashplusNew.gif; sourceTree = "<group>"; };
+		45CF91D01FE2525B003FFC10 /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		45D0974C1FC074C60002B885 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		45F9EFDA1FCBE76D00BBE1FB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		45F9EFDD1FCBF10800BBE1FB /* AirFipro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirFipro.entitlements; sourceTree = "<group>"; };
+		45F9EFDE1FCC07B800BBE1FB /* Controller.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.proto.swift; sourceTree = "<group>"; };
+		571CFCE91FBC5199008AA808 /* ControllerConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerConfigurationViewController.swift; sourceTree = "<group>"; };
+		57306F611FDE486800B059F9 /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		57306F621FDE486900B059F9 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		5753EE9D1FC428730066073F /* TCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		5753EE9E1FC428730066073F /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		5753EE9F1FC428730066073F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5753EEA01FC428730066073F /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		5754465A1FB1C81100C2BA12 /* AirFipro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirFipro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754465D1FB1C81100C2BA12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5754465F1FB1C81100C2BA12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		575446621FB1C81100C2BA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		575446641FB1C81100C2BA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		575446671FB1C81100C2BA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		575446691FB1C81100C2BA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5754466E1FB1C81100C2BA12 /* AirFiproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFiproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		575446721FB1C81100C2BA12 /* AirFiproTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirFiproTests.swift; sourceTree = "<group>"; };
+		575446741FB1C81100C2BA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575446791FB1C81100C2BA12 /* AirFiproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFiproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754467D1FB1C81100C2BA12 /* AirFiproUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirFiproUITests.swift; sourceTree = "<group>"; };
+		5754467F1FB1C81100C2BA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577866371FBF1B450087C630 /* cert-key-vm.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cert-key-vm.p12"; sourceTree = "<group>"; };
+		577866391FBF493E0087C630 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		577E44C51FB6E39800D6E1CE /* DepartmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
+		57804E851FB2FC2E0024C6D5 /* AirFipro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirFipro-Bridging-Header.h"; sourceTree = "<group>"; };
+		57804E861FB2FC2E0024C6D5 /* BSKeyboardControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKeyboardControls.h; sourceTree = "<group>"; };
+		57804E871FB2FC2E0024C6D5 /* BluetoothSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
+		57804E881FB2FC2E0024C6D5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		57804E891FB2FC2F0024C6D5 /* SwiftEventBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEventBus.swift; sourceTree = "<group>"; };
+		57804E8A1FB2FC2F0024C6D5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		57804E8B1FB2FC2F0024C6D5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		57804E8C1FB2FC2F0024C6D5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		57804E8D1FB2FC2F0024C6D5 /* BSKeyboardControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKeyboardControls.m; sourceTree = "<group>"; };
+		57804E931FB300530024C6D5 /* ServiceConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConnector.swift; sourceTree = "<group>"; };
+		57804E951FB300770024C6D5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		57804E971FB3008A0024C6D5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		57804E991FB309150024C6D5 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		57804E9D1FB321810024C6D5 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		57804E9E1FB321810024C6D5 /* ProximaNova-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularIt.otf"; sourceTree = "<group>"; };
+		57804E9F1FB321820024C6D5 /* ProximaNovaCond-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-SemiboldIt.otf"; sourceTree = "<group>"; };
+		57804EA01FB321820024C6D5 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		57804EA11FB321820024C6D5 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		57804EA21FB321820024C6D5 /* ProximaNova-Extrabld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabld.otf"; sourceTree = "<group>"; };
+		57804EA31FB321820024C6D5 /* ProximaNovaCond-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Regular.otf"; sourceTree = "<group>"; };
+		57804EA41FB321820024C6D5 /* ProximaNovaCond-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-RegularIt.otf"; sourceTree = "<group>"; };
+		57804EA51FB321820024C6D5 /* ProximaNovaCond-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Semibold.otf"; sourceTree = "<group>"; };
+		57804EA61FB321820024C6D5 /* ProximaNova-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightIt.otf"; sourceTree = "<group>"; };
+		57804EA71FB321820024C6D5 /* ProximaNova-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldIt.otf"; sourceTree = "<group>"; };
+		57804EA81FB321820024C6D5 /* ProximaNova-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.otf"; sourceTree = "<group>"; };
+		57804EA91FB321830024C6D5 /* ProximaNovaCond-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Light.otf"; sourceTree = "<group>"; };
+		57804EAA1FB321830024C6D5 /* ProximaNovaCond-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-LightIt.otf"; sourceTree = "<group>"; };
+		57804EAB1FB321830024C6D5 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
+		57804EAC1FB321830024C6D5 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		578497401FBADB39003CCE15 /* SystemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemListViewController.swift; sourceTree = "<group>"; };
+		578497481FBBFB2B003CCE15 /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
+		578497491FBBFB2B003CCE15 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		5784974C1FBC10DB003CCE15 /* AddMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMachineViewController.swift; sourceTree = "<group>"; };
+		5789A5B21FBD7783000F73DC /* ControllerDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerDataViewController.swift; sourceTree = "<group>"; };
+		578B5DAF1FB41D480069FD29 /* Airfiprosplashplus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Airfiprosplashplus.gif; sourceTree = "<group>"; };
+		578B5DB31FB44DD20069FD29 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		57934ACE1FBEAEE50066785F /* ConstructionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructionViewController.swift; sourceTree = "<group>"; };
+		57C739C61FBC672F00C1788A /* RetryWifiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryWifiViewController.swift; sourceTree = "<group>"; };
+		57D5EE091FB96AA0004ABD09 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		57D5EE0B1FB96AB9004ABD09 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		57D5EE0D1FB96ACE004ABD09 /* SliderLibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderLibViewController.swift; sourceTree = "<group>"; };
+		5A81C1E76FBDAA2120F3CBB4 /* Pods_AirFiproUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirFiproUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D713BE5C18D5EDD4213A89C /* Pods-AirFiproUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirFiproUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirFiproUITests/Pods-AirFiproUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D40D4CC2CA29F3E05261FE9 /* Pods-AirFiproUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirFiproUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirFiproUITests/Pods-AirFiproUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72C42B2F475D0DC4D0553E93 /* Pods-AirFipro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirFipro.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirFipro/Pods-AirFipro.release.xcconfig"; sourceTree = "<group>"; };
+		8E1D9C112275A7A31BD44E71 /* Pods-AirFiproTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirFiproTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirFiproTests/Pods-AirFiproTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9574C217F5D58BC9CC6B9EA /* Pods-AirFipro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirFipro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirFipro/Pods-AirFipro.debug.xcconfig"; sourceTree = "<group>"; };
+		CE2B1896C7849E550194ED7C /* Pods-AirFiproTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirFiproTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirFiproTests/Pods-AirFiproTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E50A77E54D5D669E75EDC3BF /* Pods_AirFiproTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirFiproTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575446571FB1C81100C2BA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A538D61FF5FE0E00BD008F /* AVFoundation.framework in Frameworks */,
+				45F9EFDB1FCBE76D00BBE1FB /* UserNotifications.framework in Frameworks */,
+				4531ECA71FC6D70700F86FE0 /* SystemConfiguration.framework in Frameworks */,
+				3625634762C92CEB409DE44D /* Pods_AirFipro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754466B1FB1C81100C2BA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B901EB8617E5DFCD36CF025C /* Pods_AirFiproTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575446761FB1C81100C2BA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82B106663001DFD62842A32 /* Pods_AirFiproUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C721437A13F321FCD4D989 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9574C217F5D58BC9CC6B9EA /* Pods-AirFipro.debug.xcconfig */,
+				72C42B2F475D0DC4D0553E93 /* Pods-AirFipro.release.xcconfig */,
+				CE2B1896C7849E550194ED7C /* Pods-AirFiproTests.debug.xcconfig */,
+				8E1D9C112275A7A31BD44E71 /* Pods-AirFiproTests.release.xcconfig */,
+				6D40D4CC2CA29F3E05261FE9 /* Pods-AirFiproUITests.debug.xcconfig */,
+				5D713BE5C18D5EDD4213A89C /* Pods-AirFiproUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45B6237D1FC064C7009E3A31 /* Proto */ = {
+			isa = PBXGroup;
+			children = (
+				45F9EFDE1FCC07B800BBE1FB /* Controller.proto.swift */,
+			);
+			path = Proto;
+			sourceTree = "<group>";
+		};
+		5753EE9C1FC4282D0066073F /* TCPSocket */ = {
+			isa = PBXGroup;
+			children = (
+				5753EE9F1FC428730066073F /* Result.swift */,
+				5753EE9E1FC428730066073F /* Socket.swift */,
+				5753EE9D1FC428730066073F /* TCPClient.swift */,
+				5753EEA01FC428730066073F /* ytcpsocket.c */,
+			);
+			path = TCPSocket;
+			sourceTree = "<group>";
+		};
+		575446511FB1C81100C2BA12 = {
+			isa = PBXGroup;
+			children = (
+				5754465C1FB1C81100C2BA12 /* AirFipro */,
+				575446711FB1C81100C2BA12 /* AirFiproTests */,
+				5754467C1FB1C81100C2BA12 /* AirFiproUITests */,
+				5754465B1FB1C81100C2BA12 /* Products */,
+				42C721437A13F321FCD4D989 /* Pods */,
+				C8D5F4FC82AD45E4C2EDAF77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5754465B1FB1C81100C2BA12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5754465A1FB1C81100C2BA12 /* AirFipro.app */,
+				5754466E1FB1C81100C2BA12 /* AirFiproTests.xctest */,
+				575446791FB1C81100C2BA12 /* AirFiproUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5754465C1FB1C81100C2BA12 /* AirFipro */ = {
+			isa = PBXGroup;
+			children = (
+				45F9EFDD1FCBF10800BBE1FB /* AirFipro.entitlements */,
+				45B6237D1FC064C7009E3A31 /* Proto */,
+				57804E9B1FB320CC0024C6D5 /* Resource */,
+				57804E841FB2F9E70024C6D5 /* Controller */,
+				57804E831FB2F9D90024C6D5 /* Utilites */,
+				57804E821FB2F9C10024C6D5 /* Model */,
+				575446611FB1C81100C2BA12 /* Main.storyboard */,
+				575446641FB1C81100C2BA12 /* Assets.xcassets */,
+				575446661FB1C81100C2BA12 /* LaunchScreen.storyboard */,
+				575446691FB1C81100C2BA12 /* Info.plist */,
+			);
+			path = AirFipro;
+			sourceTree = "<group>";
+		};
+		575446711FB1C81100C2BA12 /* AirFiproTests */ = {
+			isa = PBXGroup;
+			children = (
+				575446721FB1C81100C2BA12 /* AirFiproTests.swift */,
+				575446741FB1C81100C2BA12 /* Info.plist */,
+			);
+			path = AirFiproTests;
+			sourceTree = "<group>";
+		};
+		5754467C1FB1C81100C2BA12 /* AirFiproUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5754467D1FB1C81100C2BA12 /* AirFiproUITests.swift */,
+				5754467F1FB1C81100C2BA12 /* Info.plist */,
+			);
+			path = AirFiproUITests;
+			sourceTree = "<group>";
+		};
+		57804E821FB2F9C10024C6D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57306F621FDE486900B059F9 /* SCLAlertView.swift */,
+				57306F611FDE486800B059F9 /* SCLExtensions.swift */,
+				57804E931FB300530024C6D5 /* ServiceConnector.swift */,
+				57804E951FB300770024C6D5 /* Common.swift */,
+				57804E971FB3008A0024C6D5 /* Utils.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57804E831FB2F9D90024C6D5 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				45CF91D01FE2525B003FFC10 /* MarqueeLabel.swift */,
+				5753EE9C1FC4282D0066073F /* TCPSocket */,
+				578497491FBBFB2B003CCE15 /* ActionButton.swift */,
+				578497481FBBFB2B003CCE15 /* ActionButtonItem.swift */,
+				578B5DB31FB44DD20069FD29 /* Extension.swift */,
+				57804E991FB309150024C6D5 /* UIImage+Gif.swift */,
+				57804E871FB2FC2E0024C6D5 /* BluetoothSerial.swift */,
+				57804E861FB2FC2E0024C6D5 /* BSKeyboardControls.h */,
+				57804E8D1FB2FC2F0024C6D5 /* BSKeyboardControls.m */,
+				57804E8B1FB2FC2F0024C6D5 /* MBProgressHUD.h */,
+				57804E881FB2FC2E0024C6D5 /* MBProgressHUD.m */,
+				57804E8A1FB2FC2F0024C6D5 /* Reachability.h */,
+				57804E8C1FB2FC2F0024C6D5 /* Reachability.m */,
+				57804E891FB2FC2F0024C6D5 /* SwiftEventBus.swift */,
+				57804E851FB2FC2E0024C6D5 /* AirFipro-Bridging-Header.h */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		57804E841FB2F9E70024C6D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5754465D1FB1C81100C2BA12 /* AppDelegate.swift */,
+				5754465F1FB1C81100C2BA12 /* ViewController.swift */,
+				577E44C51FB6E39800D6E1CE /* DepartmentViewController.swift */,
+				57D5EE091FB96AA0004ABD09 /* DashboardViewController.swift */,
+				57D5EE0B1FB96AB9004ABD09 /* DrawerViewController.swift */,
+				57D5EE0D1FB96ACE004ABD09 /* SliderLibViewController.swift */,
+				578497401FBADB39003CCE15 /* SystemListViewController.swift */,
+				5784974C1FBC10DB003CCE15 /* AddMachineViewController.swift */,
+				571CFCE91FBC5199008AA808 /* ControllerConfigurationViewController.swift */,
+				57C739C61FBC672F00C1788A /* RetryWifiViewController.swift */,
+				5789A5B21FBD7783000F73DC /* ControllerDataViewController.swift */,
+				57934ACE1FBEAEE50066785F /* ConstructionViewController.swift */,
+				577866391FBF493E0087C630 /* NotificationViewController.swift */,
+				45D0974C1FC074C60002B885 /* ReportsViewController.swift */,
+				4531ECA41FC6CEB100F86FE0 /* FeedbackViewController.swift */,
+				4522BE381FC7E772002E4840 /* SettingsViewController.swift */,
+				45B6BA8B1FCC3014000A88F2 /* ReportTypeViewController.swift */,
+				45B6BA8D1FCC3D47000A88F2 /* ForgotPwdViewController.swift */,
+				45442FBF1FCD9E56008E8105 /* PeriodicalViewController.swift */,
+				457421211FF246DC009BC5BA /* NotiListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57804E9B1FB320CC0024C6D5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				45BCFD181FFF4D44001E9403 /* AirfiprosplashplusNew.gif */,
+				45A538D71FF6165C00BD008F /* apple_sms.mp3 */,
+				577866371FBF1B450087C630 /* cert-key-vm.p12 */,
+				578B5DAF1FB41D480069FD29 /* Airfiprosplashplus.gif */,
+				57804E9C1FB321010024C6D5 /* ProximaNova */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		57804E9C1FB321010024C6D5 /* ProximaNova */ = {
+			isa = PBXGroup;
+			children = (
+				57804EA81FB321820024C6D5 /* ProximaNova-Black.otf */,
+				57804EA01FB321820024C6D5 /* ProximaNova-Bold.otf */,
+				57804EAB1FB321830024C6D5 /* ProximaNova-BoldIt.otf */,
+				57804EA21FB321820024C6D5 /* ProximaNova-Extrabld.otf */,
+				57804E9D1FB321810024C6D5 /* ProximaNova-Light.otf */,
+				57804EA61FB321820024C6D5 /* ProximaNova-LightIt.otf */,
+				57804EA11FB321820024C6D5 /* ProximaNova-Regular.otf */,
+				57804E9E1FB321810024C6D5 /* ProximaNova-RegularIt.otf */,
+				57804EAC1FB321830024C6D5 /* ProximaNova-Semibold.otf */,
+				57804EA71FB321820024C6D5 /* ProximaNova-SemiboldIt.otf */,
+				57804EA91FB321830024C6D5 /* ProximaNovaCond-Light.otf */,
+				57804EAA1FB321830024C6D5 /* ProximaNovaCond-LightIt.otf */,
+				57804EA31FB321820024C6D5 /* ProximaNovaCond-Regular.otf */,
+				57804EA41FB321820024C6D5 /* ProximaNovaCond-RegularIt.otf */,
+				57804EA51FB321820024C6D5 /* ProximaNovaCond-Semibold.otf */,
+				57804E9F1FB321820024C6D5 /* ProximaNovaCond-SemiboldIt.otf */,
+			);
+			path = ProximaNova;
+			sourceTree = "<group>";
+		};
+		C8D5F4FC82AD45E4C2EDAF77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A538D51FF5FE0E00BD008F /* AVFoundation.framework */,
+				45F9EFDA1FCBE76D00BBE1FB /* UserNotifications.framework */,
+				4531ECA61FC6D70700F86FE0 /* SystemConfiguration.framework */,
+				337DB82EA07379F4EB97E208 /* Pods_AirFipro.framework */,
+				E50A77E54D5D669E75EDC3BF /* Pods_AirFiproTests.framework */,
+				5A81C1E76FBDAA2120F3CBB4 /* Pods_AirFiproUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		575446591FB1C81100C2BA12 /* AirFipro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575446821FB1C81100C2BA12 /* Build configuration list for PBXNativeTarget "AirFipro" */;
+			buildPhases = (
+				292DDA3E091BF8A09AC90F41 /* [CP] Check Pods Manifest.lock */,
+				575446561FB1C81100C2BA12 /* Sources */,
+				575446571FB1C81100C2BA12 /* Frameworks */,
+				575446581FB1C81100C2BA12 /* Resources */,
+				3D2CCB01492C9523004137FF /* [CP] Embed Pods Frameworks */,
+				2B38366C835AA395635E51E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirFipro;
+			productName = AirFipro;
+			productReference = 5754465A1FB1C81100C2BA12 /* AirFipro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5754466D1FB1C81100C2BA12 /* AirFiproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575446851FB1C81100C2BA12 /* Build configuration list for PBXNativeTarget "AirFiproTests" */;
+			buildPhases = (
+				08B3C3532CADD48B74029FA1 /* [CP] Check Pods Manifest.lock */,
+				5754466A1FB1C81100C2BA12 /* Sources */,
+				5754466B1FB1C81100C2BA12 /* Frameworks */,
+				5754466C1FB1C81100C2BA12 /* Resources */,
+				92830C5165243921815CE056 /* [CP] Embed Pods Frameworks */,
+				E9B9D992028BF906BC0D1C23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575446701FB1C81100C2BA12 /* PBXTargetDependency */,
+			);
+			name = AirFiproTests;
+			productName = AirFiproTests;
+			productReference = 5754466E1FB1C81100C2BA12 /* AirFiproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		575446781FB1C81100C2BA12 /* AirFiproUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575446881FB1C81100C2BA12 /* Build configuration list for PBXNativeTarget "AirFiproUITests" */;
+			buildPhases = (
+				C24F2EE261BED2E8C22FA85D /* [CP] Check Pods Manifest.lock */,
+				575446751FB1C81100C2BA12 /* Sources */,
+				575446761FB1C81100C2BA12 /* Frameworks */,
+				575446771FB1C81100C2BA12 /* Resources */,
+				B358DCE2E64A1022B1241370 /* [CP] Embed Pods Frameworks */,
+				AC1315112D0A68ED673F2A18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5754467B1FB1C81100C2BA12 /* PBXTargetDependency */,
+			);
+			name = AirFiproUITests;
+			productName = AirFiproUITests;
+			productReference = 575446791FB1C81100C2BA12 /* AirFiproUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		575446521FB1C81100C2BA12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = iexemplar;
+				TargetAttributes = {
+					575446591FB1C81100C2BA12 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					5754466D1FB1C81100C2BA12 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 575446591FB1C81100C2BA12;
+					};
+					575446781FB1C81100C2BA12 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 575446591FB1C81100C2BA12;
+					};
+				};
+			};
+			buildConfigurationList = 575446551FB1C81100C2BA12 /* Build configuration list for PBXProject "AirFipro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 575446511FB1C81100C2BA12;
+			productRefGroup = 5754465B1FB1C81100C2BA12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575446591FB1C81100C2BA12 /* AirFipro */,
+				5754466D1FB1C81100C2BA12 /* AirFiproTests */,
+				575446781FB1C81100C2BA12 /* AirFiproUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		575446581FB1C81100C2BA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575446681FB1C81100C2BA12 /* LaunchScreen.storyboard in Resources */,
+				57804EB11FB321830024C6D5 /* ProximaNova-Regular.otf in Resources */,
+				57804EBB1FB321830024C6D5 /* ProximaNova-BoldIt.otf in Resources */,
+				57804EAD1FB321830024C6D5 /* ProximaNova-Light.otf in Resources */,
+				57804EB01FB321830024C6D5 /* ProximaNova-Bold.otf in Resources */,
+				57804EB21FB321830024C6D5 /* ProximaNova-Extrabld.otf in Resources */,
+				575446651FB1C81100C2BA12 /* Assets.xcassets in Resources */,
+				575446631FB1C81100C2BA12 /* Main.storyboard in Resources */,
+				57804EAF1FB321830024C6D5 /* ProximaNovaCond-SemiboldIt.otf in Resources */,
+				45A538D81FF6165D00BD008F /* apple_sms.mp3 in Resources */,
+				57804EAE1FB321830024C6D5 /* ProximaNova-RegularIt.otf in Resources */,
+				577866381FBF1B460087C630 /* cert-key-vm.p12 in Resources */,
+				57804EB41FB321830024C6D5 /* ProximaNovaCond-RegularIt.otf in Resources */,
+				57804EBA1FB321830024C6D5 /* ProximaNovaCond-LightIt.otf in Resources */,
+				57804EB71FB321830024C6D5 /* ProximaNova-SemiboldIt.otf in Resources */,
+				45BCFD191FFF4D44001E9403 /* AirfiprosplashplusNew.gif in Resources */,
+				57804EB81FB321830024C6D5 /* ProximaNova-Black.otf in Resources */,
+				578B5DB11FB41D480069FD29 /* Airfiprosplashplus.gif in Resources */,
+				57804EB31FB321830024C6D5 /* ProximaNovaCond-Regular.otf in Resources */,
+				57804EB91FB321830024C6D5 /* ProximaNovaCond-Light.otf in Resources */,
+				57804EBC1FB321830024C6D5 /* ProximaNova-Semibold.otf in Resources */,
+				57804EB61FB321830024C6D5 /* ProximaNova-LightIt.otf in Resources */,
+				57804EB51FB321830024C6D5 /* ProximaNovaCond-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754466C1FB1C81100C2BA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575446771FB1C81100C2BA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B3C3532CADD48B74029FA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirFiproTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		292DDA3E091BF8A09AC90F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirFipro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B38366C835AA395635E51E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirFipro/Pods-AirFipro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D2CCB01492C9523004137FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AirFipro/Pods-AirFipro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/ProtocolBuffers-Swift/ProtocolBuffers.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtocolBuffers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirFipro/Pods-AirFipro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92830C5165243921815CE056 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirFiproTests/Pods-AirFiproTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1315112D0A68ED673F2A18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirFiproUITests/Pods-AirFiproUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B358DCE2E64A1022B1241370 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirFiproUITests/Pods-AirFiproUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C24F2EE261BED2E8C22FA85D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirFiproUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B9D992028BF906BC0D1C23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirFiproTests/Pods-AirFiproTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575446561FB1C81100C2BA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5753EEA11FC428730066073F /* TCPClient.swift in Sources */,
+				57804E901FB2FC2F0024C6D5 /* SwiftEventBus.swift in Sources */,
+				4522BE391FC7E773002E4840 /* SettingsViewController.swift in Sources */,
+				57D5EE0E1FB96ACE004ABD09 /* SliderLibViewController.swift in Sources */,
+				57306F641FDE486900B059F9 /* SCLAlertView.swift in Sources */,
+				57934ACF1FBEAEE50066785F /* ConstructionViewController.swift in Sources */,
+				57D5EE0A1FB96AA0004ABD09 /* DashboardViewController.swift in Sources */,
+				45B6BA8E1FCC3D47000A88F2 /* ForgotPwdViewController.swift in Sources */,
+				45D0974D1FC074C60002B885 /* ReportsViewController.swift in Sources */,
+				5753EEA31FC428730066073F /* Result.swift in Sources */,
+				57D5EE0C1FB96AB9004ABD09 /* DrawerViewController.swift in Sources */,
+				575446601FB1C81100C2BA12 /* ViewController.swift in Sources */,
+				5754465E1FB1C81100C2BA12 /* AppDelegate.swift in Sources */,
+				45442FC01FCD9E56008E8105 /* PeriodicalViewController.swift in Sources */,
+				5784974A1FBBFB2C003CCE15 /* ActionButtonItem.swift in Sources */,
+				45CF91D11FE2525B003FFC10 /* MarqueeLabel.swift in Sources */,
+				571CFCEA1FBC519A008AA808 /* ControllerConfigurationViewController.swift in Sources */,
+				578497411FBADB39003CCE15 /* SystemListViewController.swift in Sources */,
+				5778663A1FBF493E0087C630 /* NotificationViewController.swift in Sources */,
+				578B5DB41FB44DD20069FD29 /* Extension.swift in Sources */,
+				57804E9A1FB309150024C6D5 /* UIImage+Gif.swift in Sources */,
+				5789A5B31FBD7784000F73DC /* ControllerDataViewController.swift in Sources */,
+				5784974B1FBBFB2C003CCE15 /* ActionButton.swift in Sources */,
+				5753EEA41FC428730066073F /* ytcpsocket.c in Sources */,
+				577E44C61FB6E39800D6E1CE /* DepartmentViewController.swift in Sources */,
+				45F9EFDF1FCC07B800BBE1FB /* Controller.proto.swift in Sources */,
+				45B6BA8C1FCC3014000A88F2 /* ReportTypeViewController.swift in Sources */,
+				57804E8E1FB2FC2F0024C6D5 /* BluetoothSerial.swift in Sources */,
+				457421221FF246DC009BC5BA /* NotiListViewController.swift in Sources */,
+				57804E961FB300770024C6D5 /* Common.swift in Sources */,
+				5784974D1FBC10DB003CCE15 /* AddMachineViewController.swift in Sources */,
+				57306F631FDE486900B059F9 /* SCLExtensions.swift in Sources */,
+				57804E981FB3008A0024C6D5 /* Utils.swift in Sources */,
+				57804E911FB2FC2F0024C6D5 /* Reachability.m in Sources */,
+				57C739C71FBC672F00C1788A /* RetryWifiViewController.swift in Sources */,
+				4531ECA51FC6CEB100F86FE0 /* FeedbackViewController.swift in Sources */,
+				5753EEA21FC428730066073F /* Socket.swift in Sources */,
+				57804E941FB300530024C6D5 /* ServiceConnector.swift in Sources */,
+				57804E8F1FB2FC2F0024C6D5 /* MBProgressHUD.m in Sources */,
+				57804E921FB2FC2F0024C6D5 /* BSKeyboardControls.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754466A1FB1C81100C2BA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575446731FB1C81100C2BA12 /* AirFiproTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575446751FB1C81100C2BA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5754467E1FB1C81100C2BA12 /* AirFiproUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		575446701FB1C81100C2BA12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575446591FB1C81100C2BA12 /* AirFipro */;
+			targetProxy = 5754466F1FB1C81100C2BA12 /* PBXContainerItemProxy */;
+		};
+		5754467B1FB1C81100C2BA12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575446591FB1C81100C2BA12 /* AirFipro */;
+			targetProxy = 5754467A1FB1C81100C2BA12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		575446611FB1C81100C2BA12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575446621FB1C81100C2BA12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		575446661FB1C81100C2BA12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575446671FB1C81100C2BA12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		575446801FB1C81100C2BA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		575446811FB1C81100C2BA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		575446831FB1C81100C2BA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9574C217F5D58BC9CC6B9EA /* Pods-AirFipro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AirFipro/AirFipro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: IEXEMPLAR CORP (86794D4H43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86794D4H43;
+				INFOPLIST_FILE = AirFipro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexemplar.airfipro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirFipro/Utilites/AirFipro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		575446841FB1C81100C2BA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C42B2F475D0DC4D0553E93 /* Pods-AirFipro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AirFipro/AirFipro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: IEXEMPLAR CORP (86794D4H43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86794D4H43;
+				INFOPLIST_FILE = AirFipro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexemplar.airfipro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirFipro/Utilites/AirFipro-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		575446861FB1C81100C2BA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2B1896C7849E550194ED7C /* Pods-AirFiproTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFiproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IXM.AirFiproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFipro.app/AirFipro";
+			};
+			name = Debug;
+		};
+		575446871FB1C81100C2BA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1D9C112275A7A31BD44E71 /* Pods-AirFiproTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFiproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IXM.AirFiproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFipro.app/AirFipro";
+			};
+			name = Release;
+		};
+		575446891FB1C81100C2BA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D40D4CC2CA29F3E05261FE9 /* Pods-AirFiproUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFiproUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IXM.AirFiproUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirFipro;
+			};
+			name = Debug;
+		};
+		5754468A1FB1C81100C2BA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D713BE5C18D5EDD4213A89C /* Pods-AirFiproUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFiproUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IXM.AirFiproUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirFipro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		575446551FB1C81100C2BA12 /* Build configuration list for PBXProject "AirFipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575446801FB1C81100C2BA12 /* Debug */,
+				575446811FB1C81100C2BA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575446821FB1C81100C2BA12 /* Build configuration list for PBXNativeTarget "AirFipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575446831FB1C81100C2BA12 /* Debug */,
+				575446841FB1C81100C2BA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575446851FB1C81100C2BA12 /* Build configuration list for PBXNativeTarget "AirFiproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575446861FB1C81100C2BA12 /* Debug */,
+				575446871FB1C81100C2BA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575446881FB1C81100C2BA12 /* Build configuration list for PBXNativeTarget "AirFiproUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575446891FB1C81100C2BA12 /* Debug */,
+				5754468A1FB1C81100C2BA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 575446521FB1C81100C2BA12 /* Project object */;
+}

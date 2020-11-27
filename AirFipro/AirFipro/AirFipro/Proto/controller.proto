@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message controllerData
+{
+  string mA = 1;
+  string uID = 2;
+  string oID = 3;
+  string sID = 4;
+  float cfm = 5;
+  int32 lpm = 6;
+}
+
+
+message controllerDelete
+{
+  string cmd = 1;
+}
