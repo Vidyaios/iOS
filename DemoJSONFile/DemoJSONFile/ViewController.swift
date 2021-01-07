@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         return nil
     }
     
-    // Fetch JSON file from Document Directory
+    // Fetch JSON file from Document Directory.
     func parseo(){
         let documentsUrl:URL =  (FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first as URL?)!
         let destinationFileUrl = documentsUrl.appendingPathComponent("test.json")
