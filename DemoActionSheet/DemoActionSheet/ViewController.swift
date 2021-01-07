@@ -22,7 +22,7 @@ class ViewController: UIViewController, UIActionSheetDelegate {
 
     @IBAction func actionSheet_action(sender: UIButton) {
         switch sender.tag {
-        case 0: // action sheet with UIAlertView
+        case 0: // action sheet with UIAlertView.
             let alertController = UIAlertController(title: "Action Sheet", message: "What would you like to do?", preferredStyle: .actionSheet)
             let sendButton = UIAlertAction(title: "Send now", style: .default, handler: { (action) -> Void in
                 print("Ok button tapped")
