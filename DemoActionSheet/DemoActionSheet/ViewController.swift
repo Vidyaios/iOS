@@ -52,7 +52,7 @@ class ViewController: UIViewController, UIActionSheetDelegate {
             alert.addAction(cancelButton)
             self.present(alert, animated: true, completion: nil)
             break
-        case 2: // common class alertview
+        case 2: // common class alertview.
             Common.showAlert(header: "AlertView", message: "Common class AlertView")
             break
         default:
