@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         NetworkManager.isUnreachable { _ in
             print("No Network Connection")
         }
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib
     }
 
     override func didReceiveMemoryWarning() {
