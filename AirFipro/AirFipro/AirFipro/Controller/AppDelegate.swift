@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     var appDeviceToken = ""
     var strSocketTimeout = ""
     var dictOrgDetails = NSMutableDictionary()
-    var  alert = SCLAlertViewResponder.init(alertview: SCLAlertView()) //dec 11
+    var  alert = SCLAlertViewResponder.init(alertview: SCLAlertView()) 
     var strTimeZone = ""
     var strColorCode = ""
     var strPushCID = ""
